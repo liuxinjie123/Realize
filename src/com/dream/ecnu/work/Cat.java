@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Cat {
     public void menu1() {
+        System.out.println("\t");
         System.out.println("\t题目类型如下：");
         System.out.println("\t1、四则运算");
         System.out.println("\t2、面积运算");
@@ -13,6 +14,7 @@ public class Cat {
         int type = scanner.nextInt();
         switch (type) {
             case 0:
+                System.out.println("\t");
                 System.out.println("\t谢谢使用，再见！");
                 break;
             case 1:
